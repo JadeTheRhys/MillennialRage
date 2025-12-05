@@ -1,0 +1,86 @@
+body {
+  background: #f5f2ff;
+  font-family: 'Trebuchet MS', sans-serif;
+  color: #2e2a43;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 30px;
+  color: #5a4f8a;
+}
+
+.intro {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.nav a {
+  text-decoration: none;
+  padding: 12px;
+  background: #ddd7ff;
+  color: #2e2a43;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.nav a:hover {
+  background: #c7beff;
+}
+
+.block {
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  border-left: 5px solid #b2a6ff;
+}
+
+.list li {
+  margin-bottom: 10px;
+}
+
+.react {
+  margin-top: 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #6c6a80;
+}
+
+.back {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #6a5acd;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #6c6a80;
+}
