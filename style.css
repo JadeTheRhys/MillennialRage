@@ -310,6 +310,28 @@ footer {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+/* === ACCESSIBILITY: REDUCED MOTION === */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  
+  body {
+    animation: none;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+  }
+  
+  h1, h2, .intro, .block, .react, footer, .retro-navbar {
+    animation: none;
+  }
+  
+  .nav a::after {
+    animation: none;
+  }
+}
+
 /* === RESPONSIVE DESIGN === */
 @media (max-width: 768px) {
   .retro-navbar {
